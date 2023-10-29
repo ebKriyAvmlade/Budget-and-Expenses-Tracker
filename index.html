@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css" class="rel">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="top">
+    <div class="container1">
+        <p class="budget-txt">Budget</p>
+        <input type="number" id="budget-input-el" class="budget-input" placeholder="Enter Total Amount">
+        <button class="budget-button" id="budget-btn">Set Budget</button>
+    </div>
+    <div class="container2">
+        <p class="expenses-txt">Expenses</p>
+        <input type="text" class="expenses-input" placeholder="Enter Title of Product" id="expense-title">
+        <input type="number" class="expenses-input" placeholder="Enter Cost of Product" id="expense-cost">
+        <button class="expenses-button" id="check-btn">Check Amount</button>
+    </div>
+</div>
+</div>
+<div class="middle">
+<div class="bottom-container1">
+    <div>
+        <p class="total-budget-txt">Total Budget</p>
+        <p class="total-budget-amount" id="total-budget-el">0</p>
+    </div>
+</div>
+<div class="bottom-conatiner2">
+    <div>
+        <p class="expenses-txt2" >expenses<p ><p id="expensesEls">0</p>
+    </div>
+</div>
+<div class="bottom-container3">
+    <div>
+        <p class="balance-txt" >balance<p ><p id="balance">0</p>
+    </div>
+</div>
+</div>
+<div class="bottom">
+    <p class="expense-list">Expense List</p>
+     <ul id="totalBudgetList"></ul>
+</div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
